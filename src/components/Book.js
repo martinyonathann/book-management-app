@@ -21,7 +21,7 @@ const Book = ({
                     <div>Price: {price} </div>
                     <div>Date: {new Date(date).toDateString()}</div>
                 </div>
-                <Button variant="primary" onClick={() => history.push('/edit/${id}')}>
+                <Button variant="primary" onClick={() => history.push(`/edit/${id}`)}>
                     Edit
                 </Button>
                 <Button variant="danger" onClick={() => handleRemoveBook(id)}>
