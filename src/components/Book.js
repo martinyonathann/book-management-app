@@ -23,7 +23,7 @@ const Book = ({
                 </div>
                 <Button variant="primary" onClick={() => history.push('/edit/${id}')}>
                     Edit
-                </Button>{' '}
+                </Button>
                 <Button variant="danger" onClick={() => handleRemoveBook(id)}>
                     Delete
                 </Button>
